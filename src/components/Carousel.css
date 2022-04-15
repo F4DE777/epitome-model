@@ -194,12 +194,116 @@
 }
 
 
-/*  */
 
 }
 
-@media(max-width:800px){
-    .News-carry{
+@media(max-width:960px){
+    .faded-img{
         display: none;
     }
+
+
+    .contents-slide{
+        background-image: url('../assets/Group795.svg');
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        color: rgb(241, 237, 237);
+        top: 0;
+        width: 100%;
+        display: inline-grid;
+        z-index: 100;
+        flex: 1 1;
+        max-height: 32rem;
+        padding-left: 20px;
+    }
+
+    
+.date-event{
+    height: 100%;
+    width: 100%;
+}
+
+.date-event label{
+    font-family:monseratSemi ;
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+
+.date-event h1{
+    font-family: noteworthy;
+    margin: 10px 0;
+    font-size: 40px;
+}
+
+.date-event p{
+    font-family:monserat ;
+    margin: 10px 0;
+    height: 10rem;
+    font-size: 18px;
+}
+
+.view-more{
+    width: 100%;
+    text-align: right;
+    position: relative;
+}
+
+.view-more h5{
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+    font-family:monserat ;
+    font-size: 16px;
+    padding-right: 10%;
+}
+
+
+.slick-dots li.slick-active {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 14px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    background-color: #4287BD !important;
+    border: 1px solid white;
+    border-radius: 20px;
+    transition: width 0.5s ease-out;
+}
+
+.slick-dots li{
+    position: relative;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    background-color:#fff !important;
+    border: 1px solid #4287BD;
+    border-radius: 20px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 35px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    right: 30px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li.slick-active button:before {
+    display: none;
+ }
+ 
+ .slick-dots li button:before {
+     display: none;
+ }
 }
