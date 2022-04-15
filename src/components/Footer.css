@@ -1,0 +1,437 @@
+@media (min-width: 1200px) {
+
+
+    
+    
+    .Gap{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: space-between;
+        height: 12rem;
+                margin-top: 4rem;
+    
+    }
+    
+    .Gap img{
+        width: 10rem;
+    }
+    
+    .use{
+        color: #ffffff !important;
+        font-family: 'Gill';
+        font-weight: 700;
+        display: flex;
+        text-align: left;
+    }
+    
+    
+    /* .form {
+        width: 50%;
+        height: 3, 5em;
+        color: rgba(165, 155, 155, 0.26);
+    } */
+    
+    
+    .usefuls{
+            margin-top: 3rem;
+            justify-content: center;
+    }
+    .useful1{
+            margin-top: 2rem;
+        justify-content: center;
+        display: block;
+        text-align: left;
+    }
+    
+    
+    .Army{
+        justify-content: center;
+        align-items: center;
+            text-align: center;
+    }
+    .Army1 {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    
+    .range {
+        position: relative;
+        margin-left: 7em;
+        font-size: 17px;
+        font-weight: 100;
+        font-family: 'Gill';
+    }
+    
+    
+    
+    
+    
+    .img-bann{
+        position: absolute;
+        display: grid;
+        top: 48px;
+    }
+    
+    .carr-add{
+        /* margin-top: 8rem; */
+        position: relative;
+        display: block;
+        /* height: 18rem; */
+    }
+    
+    }
+
+
+    /* .submit{
+        background-color: #5DA7DF;
+    } */
+    
+    
+    
+    .footer{
+        box-sizing: border-box;
+        display: blocK;
+        /* background-color: #4287BD; */
+        background-image: url('../assets/Group1073@2x.png');
+        width: 100%;
+        color: #ffffff;
+        text-decoration: none;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        justify-content: center;
+        display: flex;
+    }
+    
+    
+    .divider{
+        width: 100%;
+        border-bottom: 1px solid #ffffff;
+        display: block;
+        text-align: right;
+        justify-content: flex-end;
+        margin-top: 7rem;
+    }
+    
+    .divider h4{
+            font-size: 12px;
+    
+    }
+    
+    .use{
+        color: #ffffff !important;
+        font-family: monseratSemi;
+        font-weight: 700;
+        display: flex;
+        text-align: left;
+    }
+    
+    
+    
+    
+    
+    .copyrights{
+        padding-top: 1rem;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        position: relative;
+    }
+    
+    .link {
+        color: white;
+    }
+    
+    .link:hover {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .lined{
+        font-size: 16px;
+        font-weight: 700;
+        font-family:monseratSemi ;
+
+    }
+    
+    .titing > li{
+        font-size: 14px;
+        white-space: nowrap;
+        font-weight: 600;
+        font-family:monserat ;
+
+    }
+    
+    .dxt:hover {
+        text-decoration: underline ;
+    }
+    
+    .dxty{
+        width: 3rem;
+        height: 3rem;
+        text-align: left;
+        border-radius: 100%;
+        justify-content: center;
+    }
+    
+    .dxty img{
+        position: relative;
+        top: 10%;
+        width: 80px;
+        height: 40px;
+    }
+
+    .w-mark{
+        text-align: left;
+    }
+
+    .socials{
+        margin-top: 2rem;
+    }
+    
+    .fullyear{
+            font-size: 12px;
+            position: relative;
+    }
+    
+    .policy {
+        position: relative;
+        display: flex;
+        width: 10%;
+        justify-content: space-between;
+        font-size: 12px;
+    }
+    
+    
+    .divide{
+        content: "";
+        border-right: 2px solid #ffffff;
+        display: flex;
+        height: 1rem;
+    }
+    
+    
+    .controller-input{
+        display: flex;
+        position: relative;
+    
+    }
+    
+    .controller-input input{
+        position: relative;
+        text-align: start;
+        width: 80%;
+        display: grid;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #495057;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        border-radius: 5px 0px 0px 5px;
+            height: 3rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+
+    .controller-input input:focus{
+        outline: 0;
+    }
+
+    .controller-input button:focus{
+        outline: 0;
+    }
+
+    .controller-input input::placeholder{
+        color: #49505752;
+
+    }
+    
+    .controller-input button{
+        position: relative;
+        text-align: start;
+        width: 20%;
+        border-radius: 0px 5px 5px 0px;
+        line-height: 1.5;
+        height: 3rem;
+        border: none;
+        color: #fff;
+        border-left: 1px solid #4287BD;
+        background-color: #4287BD;
+    
+    }
+
+    .opening{
+        padding: 0;
+    }
+
+    .opening li{
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .list-opp{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        list-style: none;
+        justify-content: space-between;
+        line-height: 3;
+        text-align: left;
+    }
+
+    .list-opp li{
+        width: 33.3%;
+        position: relative;
+    }
+    
+    
+    
+    
+    
+            .hit {
+                height: 1px;
+                margin-top: 10px;
+                margin-bottom: 17px;
+                border-bottom: #ffffff 1px solid;
+    }
+
+
+    .join-head{
+        text-align: center;
+        /* margin-top: 9rem; */
+    
+    }
+    
+    .join-head h1{
+        font-size: 40px;
+        font-family: noteworthy;
+        color: #000;
+    }
+    
+    .join-head hr{
+        width: 7rem;
+        border-bottom: 4px solid #4287BD;
+        border-radius: 92px;
+        transform: translateY(-10px);
+    }
+
+
+.clicker {
+    background-color: #4287BD !important;
+    background-position: center;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    color: white !important;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+    font-family: monserat;
+    font-weight: 600;
+    border: none;
+    margin-top: 10px;
+
+}
+
+.clicker:hover{
+    background-color: #5DA7DF !important;
+    transform: scale(1.02);
+    text-decoration: none;
+}
+
+.join-img{
+    height: 20rem;
+    position: relative;
+}
+
+.join-img img{
+    height: 20rem;
+
+}
+
+.smooth{
+    margin: 13rem auto;
+}
+
+    
+            @media(max-width:960px) {
+                
+    
+                .footer{
+                    box-sizing: border-box;
+                    display: blocK;
+                    background-image: url('../assets/Group1073@2x.png');
+                    width: 100%;
+                    color: #ffffff;
+                    text-decoration: none;
+                    position: relative;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    justify-content: center;
+                    display: flex;
+                }
+                
+                .Gap{
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                justify-content: space-between;
+                height: 12rem;
+                margin-top: 4rem;
+    
+    }
+    
+    .Gap img{
+        width: 10rem;
+    }
+    
+    .carr-add{
+        margin-top: 2rem;
+        position: relative;
+        display: block;
+        height: 15rem;
+        left: 17%;
+    }
+
+    .carr-add p{
+        font-family:monserat ;
+
+    }
+    
+    .img-bann{
+            left: -6%;
+        position: relative;
+        top: 48px;
+    }
+    
+    .policy {
+        position: relative;
+        display: flex;
+        width: 35%;
+        justify-content: space-between;
+        font-size: 10px;
+        white-space: nowrap;
+    }
+
+    .policy p{
+        padding: 0 5px;
+    }
+    
+            }
+    
+    
+    
+    
+    
+            .footer{
+                overflow: hidden;
+                }
+    
