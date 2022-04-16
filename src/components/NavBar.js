@@ -1,14 +1,58 @@
 import React,  {useState} from 'react';
 import {Link, NavLink} from "react-router-dom";
 import SchLogo from '../assets/epitome-school-logo-bckgrnd-246x300.png'
-import fIcon from '../assets/Icon feather-user.svg'
+import fIcon from '../assets/Icon feather-user.svg';
+import {navMenus} from './MenuItems';
+import Dropdown from './Dropdown';
+
 import classes from './NavBar.module.css';
 import './NavBar.css'
 // import classes from './AdmissionForm.module.css';
 
 
 function NavBar() {
-  const [click , setClick] = useState(false)
+  const [click , setClick] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
+
+
+  const [activeMenu, setActiveMenu] = useState({
+      menu1: false,
+      menu2: false,
+      menu3: false,
+      menu4: false,
+      menu5: false,
+  })
+
+  const onMouseEnter = (e) => {
+    const menuText = e.target.text.trim().toLowerCase() || 'about';
+
+    if (window.innerWidth < 960){
+      setDropdown(false);
+    }else{
+      setActiveMenu({
+        menu1: menuText === 'about',
+        menu2: menuText === 'academics',
+        menu3: menuText === 'learning',
+        menu4: menuText === 'school life',
+        menu5: menuText === 'news',
+      })
+    }
+
+  }
+
+  const onMouseLeave = () =>{
+    if(window.innerWidth < 960){
+      setDropdown(false);
+    }else{
+      setActiveMenu({
+        menu1: false,
+        menu2: false,
+        menu3: false,
+        menu4: false,
+        menu5: false,
+      })
+    }
+  };
 
   const handleClick = () => setClick(!click)
   const closeMobileMenu = () => setClick(false)
@@ -25,41 +69,55 @@ function NavBar() {
                     <i className={click ? 'fas fa-times' : 'fas fa-bars'}      />
             </div>
             <ul  className={click ? "nav-list active" : "nav-list"}>
-              <li>
-                <NavLink to={'/academics'}  onClick={closeMobileMenu}>
+
+              <li  className='nav-item ' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+                <NavLink  to={'/academics'}
+                          className='nav-links'  
+                          onClick={closeMobileMenu}>
                         ABOUT
                 </NavLink>
+                {activeMenu.menu1 && <Dropdown menuArray={navMenus.about}/>}
               </li>
-              <li>
-                <NavLink to={'/'} onClick={closeMobileMenu}>
+
+              <li className='nav-item ' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+                <NavLink to={'/'} className='nav-links' onClick={closeMobileMenu}>
                   ACADEMICS
                 </NavLink>
+                {activeMenu.menu2 && <Dropdown menuArray={navMenus.academic}/>}
               </li>
-              <li>
-              <NavLink to={'/'} onClick={closeMobileMenu}>
+
+              <li className='nav-item ' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+              <NavLink to={'/'} className='nav-links' onClick={closeMobileMenu}>
                       LEARNING
                 </NavLink>
+                {activeMenu.menu3 && <Dropdown menuArray={navMenus.learn}/>}
              </li>
-              <li>
-                <NavLink to={'/'} onClick={closeMobileMenu}>
+
+              <li  className='nav-item ' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
+                <NavLink to={'/'} className='nav-links' onClick={closeMobileMenu}>
                       SCHOOL LIFE
                 </NavLink>
+                {activeMenu.menu4 && <Dropdown menuArray={navMenus.school}/>}
               </li>
-              <li>
-                <NavLink to={'/'} onClick={closeMobileMenu}>
+              <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}  >
+                <NavLink to={'/'} className='nav-links' onClick={closeMobileMenu}>
                     NEWS
                 </NavLink>
+                {activeMenu.menu5 && <Dropdown menuArray={navMenus.news}/>}
               </li>
-              <li> 
-                <NavLink to={'/'} onClick={closeMobileMenu}>
+
+              <li className='nav-item '> 
+                <NavLink to={'/'} className='nav-links' onClick={closeMobileMenu}>
                       GALLERY
                 </NavLink>
               </li>
+
               <li>
                 <button className={classes.btnPortal} >
                   <img src={fIcon} alt="person"  className={classes.fIcon} />
                   Portal</button>
               </li>
+
             </ul>
       </div>
    </nav>
