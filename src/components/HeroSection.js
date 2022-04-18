@@ -23,13 +23,14 @@ import Photos9 from "../assets/Rectangle47@2x.png";
 import Photo1 from "../assets/Rectangle44@2x.png";
 import Teacher from "../assets/Image6.png";
 import { Link } from "react-router-dom";
+import Phyz from "../assets/Rectangle8453@2x.png"
+import Prayer from "../assets/Rectangle8454@2x.png"
+import House from "../assets/Rectangle466@2x.png"
 import Cart from "./Carousel"
 import Vision from "./Vision";
 import "./HeroSection.css";
 
 function HeroSection() {
-
- 
 
 
   return (
@@ -340,6 +341,44 @@ function HeroSection() {
           </table>
         </div>
       </div>
+      <div className="container-lg  smooth">
+                    <div className="join-head">
+                        <h1>Join Us</h1>
+                            <hr/>
+                    </div>
+                    <div className="row mb-5">
+                        <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12  ">
+                            <div className='join-img'>
+                                <img src={Phyz} alt="stairs " className="img-fluid"/>
+                            </div>
+                            <div>
+                                <a href="#" target={'_blank'} className={'clicker'}
+                                style={{width: '100%', borderRadius: '5px'}}>Inquire</a>
+                            </div>
+                        </div>
+                        <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12 ">
+                            <div className='join-img'>
+                                <img src={Prayer} alt="stairs" className="img-fluid"/>
+                            </div>
+                            <div>
+                                <a href="#" target={'_blank'} className={'clicker'}
+                               style={{width: '100%', borderRadius: '5px'}}>Apply</a>
+                            </div>
+
+                        </div>
+                        <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12 ">
+                            <div className='join-img'>
+                                <img src={House} alt="stairs" className="img-fluid"/>
+                            </div>
+                            <div>
+                                <a href="#" target={'_blank'} className={'clicker'}
+                               style={{width: '100%', borderRadius: '5px'}}>Take a tour</a>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
     </>
   );
 }

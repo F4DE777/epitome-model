@@ -1,8 +1,14 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import NavBar from './components/NavBar';
 import HeroSection from './components/HeroSection';
 import Footer from './components/Footer';
+import NotFound from './components/pages/NotFound';
+import About from './components/pages/About';
+import Academics from './components/pages/Academics';
+import Learn from './components/pages/Learning';
+import School from './components/pages/School';
 
 
 function App() {
@@ -10,10 +16,14 @@ function App() {
     <>
     <Router>
           <NavBar />
-        <Routes>
-                <Route  exact path="/"  element={<HeroSection/>} />
-                {/* <Route path="/add-student"  element={<AddStudent/>}/> */}
-          </Routes>
+              <Switch>
+                      <Route path="/" component={HeroSection}   exact/>
+                      <Route path={'/about'} component={About} />
+                      <Route path={'/academics'} component={Academics}  />
+                      <Route path={'/learn'} component={Learn}  />
+                      <Route path={'/school'} component={School} />
+                      <Route path="*"  component={NotFound}  />
+                </Switch>
           <Footer/>
       </Router>
     

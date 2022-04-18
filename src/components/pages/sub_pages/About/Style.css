@@ -1,0 +1,261 @@
+
+.header-img {
+  position: relative;
+  display: block;
+}
+
+.header-img img {
+    position: relative;
+    display: block;
+    height: 40rem;
+    width: 100%;
+    object-fit: fill;
+}
+
+
+.teacher-img img {
+    height: 30rem;
+    width: inherit;
+    object-fit: fill;
+}
+.note-lists {
+  width: 100%;
+  height: 10rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f569;
+}
+
+.note-lists ul {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  width: 80%;
+}
+
+.note-lists ul li {
+  list-style: none;
+  text-transform: capitalize;
+  margin: 1rem 2rem;
+}
+
+.note-lists ul li a {
+  color: #191919;
+}
+
+.make {
+  top: 10%;
+}
+
+.intro {
+  border-bottom: 1px solid rgba(97 94 94 / 23%);
+  padding-top: 1rem;
+}
+
+.intro small {
+    text-align: left;
+    font: normal normal bold 16px/21px monserat;
+    letter-spacing: 5.76px;
+    color: #BA4A6E;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.intro header {
+  text-align: left;
+  font-family: noteworthy;
+  font-size: 45px;
+  letter-spacing: 0px;
+  color: #191a1d;
+  opacity: 1;
+}
+
+.bread-crumbs {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid rgba(97 94 94 / 23%);
+  align-items: center;
+  height: 4rem;
+}
+
+.bread-crumbs .bold {
+  position: relative;
+  margin: 0 10px 0 0;
+  /*top: 40%;*/
+  text-align: left;
+  font-size: 20px;
+  font-family: monserat, sans-serif;
+  letter-spacing: 0;
+  color: #191919;
+  opacity: 1;
+}
+
+.bread-crumbs ul {
+  width: 34%;
+  display: flex;
+  /*justify-content: space-between;*/
+  justify-content: flex-start;
+  position: relative;
+  margin-bottom: 0;
+  /*top: 40%;*/
+}
+
+.bread-crumbs ul li {
+  list-style: none;
+  text-align: left;
+  font: 16px monserat;
+  letter-spacing: 0px;
+  color: #191919;
+  opacity: 1;
+}
+
+.bread-crumbs ul li::after {
+  content: "\003e";
+  margin: 0 10px;
+}
+
+
+.speech {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+
+.speech  > div{
+    min-height: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+.speech p {
+  position: relative;
+  display: grid;
+  line-height: 32px !important;
+  text-align: left;
+  font: 20px monserat;
+  letter-spacing: 0px;
+  color: #191a1d;
+  opacity: 1;
+  font-family: monserat, sans-serif;
+}
+
+.speech strong {
+  text-align: center;
+  font: normal normal 500 23px/42px monserat;
+  letter-spacing: 0px;
+  color: #191919;
+  opacity: 1;
+  border-top: 0.5px solid #80808040;
+
+}
+
+.active-link {
+  color: #d0136b !important;
+}
+
+.card-body {
+    border: none !important;
+}
+
+.vis-state{
+    text-align: left;
+    margin-top: 50px;
+}
+
+.vis-state h4{
+font-family: noteworthy;
+font-size: 30px;
+}
+
+@media (min-width: 1200px) {
+  .create {
+    justify-content: center;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 10rem;
+    padding-left: 8rem;
+
+  }
+}
+
+@media (max-width: 780px) {
+  .header-img img {
+    position: relative;
+    display: block;
+    height: 480px;
+    width: 100%;
+  }
+
+  .note-lists {
+    width: 100%;
+    height: 10rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f569;
+  }
+
+  .note-lists ul {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    grid-gap: 25px 15px;
+    width: 100%;
+    text-transform: capitalize;
+  }
+
+  .note-lists ul li {
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 10px;
+  }
+
+  .bread-crumbs ul {
+    width: 24%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 43%;
+  }
+
+  .bread-crumbs bold {
+    position: relative;
+    margin: 0;
+    top: 40%;
+    text-align: left;
+    font: 14px monserat Sans;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+  }
+
+  .bread-crumbs ul li {
+    list-style: none;
+    text-align: left;
+    font: 11px monserat Sans;
+    letter-spacing: 0px;
+    color: #191919;
+    opacity: 1;
+    white-space: nowrap;
+  }
+
+  .intro header {
+    text-align: left;
+    font: normal normal normal 30px Lora;
+    letter-spacing: 0px;
+    color: #191a1d;
+    opacity: 1;
+  }
+}

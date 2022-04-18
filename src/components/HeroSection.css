@@ -17,15 +17,19 @@
     display: none;
 }
 
-.carousel-indicators .active {
+
+
+
+.carousel-indicators > button.active {
     opacity: 1;
-    background-color: #4287BD;
-    border-color: #4287BD;
+    background-color: #4287BD !important;
+    border-color: #4287BD !important;
     outline: none;
     border: none;
 }
 
-.carousel-indicators {
+
+.carousel-indicators  {
     position: absolute;
     right: 0;
     bottom: 10px;
@@ -43,13 +47,34 @@
     border: none;
 }
 
-.carousel-indicators button{
-    width: 4rem;
-    height: 7px;
-    margin: 0 5px;
-    border-radius: 4px;
+
+
+/* .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
     background-color: #fff;
-    border: 2px solid #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+} */
+
+.carousel-indicators button{
+    width: 4rem !important;
+    height: 7px !important;
+    margin: 0 5px !important;
+    border-radius: 4px !important;
+    background-color: #fff !important;
+    border: 2px solid #fff !important;
 }
 
 .carousel-indicators button:focus{
@@ -249,36 +274,7 @@
 }
 
 
-/* .text-cover {
-    height: 100%;
-    background-color: #fff;
-    opacity: 0 !important;
-    text-align: center;
-    margin: 0 auto;
-    transition: 0.5s ease;
-    color: transparent !important;
-  }
-  .text-cover:hover {
-    opacity: 1;
-    cursor: pointer;
-    text-align: center;
-    color: #fff !important;
-  }
 
-
-  .text-content {
-    position: relative;
-    height: 100%;
-  }
-
-
-  .text-content:hover {
-    background-color: red;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(5px);
-    z-index: 1;
-    opacity: 1;
-  } */
 
   .text-cover{
     height: 100%;

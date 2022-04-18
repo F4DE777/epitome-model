@@ -71,7 +71,7 @@ function NavBar() {
             <ul  className={click ? "nav-list active" : "nav-list"}>
 
               <li  className='nav-item ' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-                <NavLink  to={'/academics'}
+                <NavLink  to={'/about'}
                           className='nav-links'  
                           onClick={closeMobileMenu}>
                         ABOUT
@@ -80,34 +80,34 @@ function NavBar() {
               </li>
 
               <li className='nav-item ' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-                <NavLink to={'/'} className='nav-links' onClick={closeMobileMenu}>
+                <NavLink to={'/academics'} className='nav-links' onClick={closeMobileMenu}>
                   ACADEMICS
                 </NavLink>
-                {activeMenu.menu2 && <Dropdown menuArray={navMenus.academic}/>}
+                {activeMenu.menu2 && <Dropdown menuArray={navMenus.academics}/>}
               </li>
 
               <li className='nav-item ' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-              <NavLink to={'/'} className='nav-links' onClick={closeMobileMenu}>
+              <NavLink to={'/learn'} className='nav-links' onClick={closeMobileMenu}>
                       LEARNING
                 </NavLink>
                 {activeMenu.menu3 && <Dropdown menuArray={navMenus.learn}/>}
              </li>
 
               <li  className='nav-item ' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
-                <NavLink to={'/'} className='nav-links' onClick={closeMobileMenu}>
+                <NavLink to={'/school'} className='nav-links' onClick={closeMobileMenu}>
                       SCHOOL LIFE
                 </NavLink>
                 {activeMenu.menu4 && <Dropdown menuArray={navMenus.school}/>}
               </li>
               <li className='nav-item' onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}  >
-                <NavLink to={'/'} className='nav-links' onClick={closeMobileMenu}>
+                <NavLink to={'/news'} className='nav-links' onClick={closeMobileMenu}>
                     NEWS
                 </NavLink>
                 {activeMenu.menu5 && <Dropdown menuArray={navMenus.news}/>}
               </li>
 
               <li className='nav-item '> 
-                <NavLink to={'/'} className='nav-links' onClick={closeMobileMenu}>
+                <NavLink to={'/gallery'} className='nav-links' onClick={closeMobileMenu}>
                       GALLERY
                 </NavLink>
               </li>

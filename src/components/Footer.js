@@ -5,9 +5,7 @@ import Twitter from "../assets/Group9.svg";
 import Face from "../assets/Group10.svg";
 import Insta from "../assets/Group233.svg";
 import Mark from "../assets/Group1066.png";
-import Phyz from "../assets/Rectangle8453@2x.png"
-import Prayer from "../assets/Rectangle8454@2x.png"
-import House from "../assets/Rectangle466@2x.png"
+
 
 
 import "./Footer.css";
@@ -18,44 +16,7 @@ function Footer() {
   return (
     <>
 
-        <div className="container-lg  smooth">
-                    <div className="join-head">
-                        <h1>Join Us</h1>
-                            <hr/>
-                    </div>
-                    <div className="row mb-5">
-                        <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12  ">
-                            <div className='join-img'>
-                                <img src={Phyz} alt="stairs " className="img-fluid"/>
-                            </div>
-                            <div>
-                                <a href="#" target={'_blank'} className={'clicker'}
-                                style={{width: '100%', borderRadius: '5px'}}>Inquire</a>
-                            </div>
-                        </div>
-                        <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12 ">
-                            <div className='join-img'>
-                                <img src={Prayer} alt="stairs" className="img-fluid"/>
-                            </div>
-                            <div>
-                                <a href="#" target={'_blank'} className={'clicker'}
-                               style={{width: '100%', borderRadius: '5px'}}>Apply</a>
-                            </div>
-
-                        </div>
-                        <div className="col-md-4 col-lg-4 col-sm-12 col-xs-12 ">
-                            <div className='join-img'>
-                                <img src={House} alt="stairs" className="img-fluid"/>
-                            </div>
-                            <div>
-                                <a href="#" target={'_blank'} className={'clicker'}
-                               style={{width: '100%', borderRadius: '5px'}}>Take a tour</a>
-                            </div>
-                            
-                        </div>
-
-                    </div>
-                </div>
+                
             <footer className="footer ">
                 <div className="container-lg">
                     <div className="row">

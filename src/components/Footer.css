@@ -99,7 +99,7 @@
         width: 100%;
         color: #ffffff;
         text-decoration: none;
-        position: relative;
+        position: absolute;
         background-repeat: no-repeat;
         background-size: cover;
         justify-content: center;
