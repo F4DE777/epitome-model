@@ -25,7 +25,7 @@
     position: relative;
     top: 6rem;
     margin: 0 0 0 -140px;
-    z-index: 10;
+    /* z-index: 10; */
     padding: 0;
 }
 
@@ -42,7 +42,7 @@
     top: 2em;
     width: 70%;
     display: inline-grid;
-    z-index: 100;
+    /* z-index: 100; */
     -webkit-transform: translate(50px,10px);
     transform: translate(50px,10px);
 }
@@ -58,7 +58,7 @@
     font-weight: 700;
     font-size: 40px;
     color: #faf9f9;
-    z-index: 100;
+    /* z-index: 100; */
     line-height: 2;
 
 }
@@ -87,7 +87,7 @@
 }
 
 .rec-arrow-left:after {
-    content: "\2190";
+    content: "\01F860";
     color: #00022c;
     font-size: 84px;
 }
@@ -98,7 +98,7 @@
 }
 
 .rec-arrow-right:after {
-    content: "\2192";
+    content: "\01F862";
     color: #00022c;
     font-size: 84px;
 }

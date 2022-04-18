@@ -1,11 +1,14 @@
 import React from 'react';
-import Pex from "../../../../assets/Rectangle7.png";
+import Pex from "../../../../assets/Rectanglebby2@2x.png";
 
 import './Style.css'
 
 function Contact() {
   return (
     <>
+    <div>
+        
+    </div>
         <section>
             <div className="header-img">
                 <img src={Pex} alt="Header" className="img-fluid" />
@@ -29,7 +32,8 @@ function Contact() {
                     </div>
                 </div>
             </section>
-    
+            <div className ="overlay-page"></div> 
+
     </>
   )
 }

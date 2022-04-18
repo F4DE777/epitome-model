@@ -197,6 +197,20 @@
 
 }
 
+
+.view-more h5:hover::after{
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.view-more h5::after{
+    content: "\01F806";
+    font-size: 25px;
+    transform: translateY(-5px);
+    position: absolute;
+    transition: padding-left 1.5s ease-out;
+}
+
 @media(max-width:960px){
     .faded-img{
         display: none;

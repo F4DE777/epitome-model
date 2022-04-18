@@ -1,5 +1,5 @@
 import React from 'react';
-import Pex from "../../../../assets/Rectangle7.png";
+import Pex from "../../../../assets/Rectangleel2@2x.png";
 import './Style.css'
 
 
