@@ -23,18 +23,18 @@ function Vision() {
                             </div>
                         <div className="vision">
                             
-                                <p>The end of Kilimanjaro International
+                                <p>EPITOME MODEL ISLAMIC SCHOOLS
                                      Leadership Academy is to devote itself
                                       to the work of the intellectual, moral 
                                       and religious formation of girls and boys 
                                       of all religious faiths, tribes and socio 
                                       economic backgrounds to be leaders in service
-                                       of God and others. The Kilimanjaro International 
+                                       of God and others. The Epitome model islamic school 
                                        Leadership Academy community is one of shared commitment
                                         to the formation of women and men for and with others, who 
                                         are compassionate towards their neighbour, committed to doing 
                                         justice, competent in their academic pursuits and steadfast in 
-                                        their reverence for God and all of God’s creation. The Kilimanjaro 
+                                        their reverence for God and all of God’s creation. The Epitome model islamic school
                                         International Leadership Academy community is committed to the
                                          Tanzanian policy On education and strives to
                                           form faith-directed persons who are inspired
@@ -80,7 +80,7 @@ function Vision() {
                             </div>
                         <div className="vision">
                             
-                                <p>The Kilimanjaro International Leadership Academy is a 
+                                <p>The Epitome model islamic school Leadership Academy is a 
                                     community of shared vision, trained and working together 
                                     with this common purpose. Open to students and staff of all 
                                     religions, all economic levels and all tribal and regional 
@@ -88,8 +88,8 @@ function Vision() {
                                     and strives to develop individual talents and gifts within that 
                                     family, with deep respect for the traditional values of Tanzania.
                                      One of the specific contributions of educators is that they are
-                                      oriented to certain values.Kilimanjaro and their colleagues at
-                                       Kilimanjaro International Leadership Academy pledge themselves 
+                                      oriented to certain values.Epitome model islamic schooland their colleagues at
+                                       Epitome model islamic school Leadership Academy pledge themselves 
                                        to the moral development of their students. Development of religious
                                         principles and moral values is central to the curriculum, not just 
                                         in religion courses, retreats and religious services.

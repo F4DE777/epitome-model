@@ -35,7 +35,7 @@ function HeroSection() {
 
   return (
     <>
-    <div className="page-trans">
+    <div className="page-trans ">
         <div>
           <Carousel fade >
             <Carousel.Item>
