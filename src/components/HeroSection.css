@@ -255,7 +255,8 @@
 
 .gallery-cont{
     margin:  5rem 0;
-    overflow: scroll;
+    display: flex;
+    flex-direction: column;
 }
 
 .gallery-head{

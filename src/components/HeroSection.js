@@ -17,10 +17,6 @@ import Robo from "../assets/Rectangle8493.png";
 import Photos4 from "../assets/Rectangle37.png";
 import Photos5 from "../assets/Rectangle45.png";
 import Photos6 from "../assets/Rectangle8453@2x.png";
-import Photos7 from "../assets/Rectangle177@2x.png";
-import Photos8 from "../assets/Rectangle444.png";
-import Photos9 from "../assets/Rectangle47@2x.png";
-import Photo1 from "../assets/Rectangle44@2x.png";
 import Teacher from "../assets/Image6.png";
 import { Link } from "react-router-dom";
 import Phyz from "../assets/Rectangle8453@2x.png"
@@ -29,6 +25,7 @@ import House from "../assets/Rectangle466@2x.png"
 import Cart from "./Carousel"
 import Vision from "./Vision";
 import "./HeroSection.css";
+import Gallery from "./Gallery";
 
 function HeroSection() {
 
@@ -207,141 +204,7 @@ function HeroSection() {
         </div>
         <Vision/>
         <Cart/>
-        <div className="gallery-cont">
-        <div>
-            <div className="gallery-head">
-                <h1>Gallery</h1>
-                  <hr/>
-              </div>
-            <table className='gallery'>
-              <tr>
-                <td className='mic-img'>
-                  <div  style={{ background: `url(${Photos7}) center/cover no-repeat`, backgroundColor: 'black',   height: '100%', width: '-webkit-fill-available'   }} >
-                      <div className='text-cover'>
-                          <div className='text-content'>
-                          <i class="fas fa-caret-left"></i>
-                          <i class="fas fa-search"></i>
-                          <i class="fas fa-caret-right"></i>
-                          <i class="fa-solid fa-magnifying-glass-plus"></i>
-                          </div>
-                        </div>
-                  </div>
-                    
-                </td>
-                <td colSpan='2'>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
-                  <div style={{ background: `url(${Photos4}) center/cover no-repeat`,  backgroundColor: 'black',  height: '100%', width: '-webkit-fill-available'  }} className='img-fluid'>
-                    <div className='text-cover'>
-                        <div className='text-content'>
-                        <i class="fas fa-caret-left"></i>
-                        <i class="fas fa-search"></i>
-                        <i class="fas fa-caret-right"></i>
-                        <i class="fa-solid fa-magnifying-glass-plus"></i>
-                        </div>
-                      </div>
-                  </div>
-                </td>
-                <td rowSpan='2'>
-                  <div style={{
-                    background: `url(${Photos2}) center/cover no-repeat`,
-                    backgroundColor: 'black',
-                    height: '100%', width: '417px'
-                  }} className='img-fluid'>
-                      <div className='text-cover'>
-                        <div className='text-content'>
-                        <i class="fas fa-caret-left"></i>
-                        <i class="fas fa-search"></i>
-                        <i class="fas fa-caret-right"></i>
-                        <i class="fa-solid fa-magnifying-glass-plus"></i>
-                        </div>
-                      </div>
-                  </div>
-                </td>
-                <td>
-                  <div style={{
-                    background: `url(${Photos3}) center/cover no-repeat`,
-                    backgroundColor: 'black',
-                    height: '100%', width: '-webkit-fill-available'
-                  }} className='img-fluid'>
-                      <div className='text-cover'>
-                        <div className='text-content'>
-                        <i class="fas fa-caret-left"></i>
-                        <i class="fas fa-search"></i>
-                        <i class="fas fa-caret-right"></i>
-                        <i class="fa-solid fa-magnifying-glass-plus"></i>
-                        </div>
-                      </div>
-                  </div>
-                </td>
-              </tr>
-              <tr>
-                <td >
-                  <div style={{
-                    background: `url(${Photos8}) center/cover no-repeat`,
-                    backgroundColor: 'black',
-                    height: '100%', width: '500px'
-                  }} className='img-fluid'>
-                      <div className='text-cover'>
-                        <div className='text-content'>
-                        <i class="fas fa-caret-left"></i>
-                        <i class="fas fa-search"></i>
-                        <i class="fas fa-caret-right"></i>
-                        <i class="fa-solid fa-magnifying-glass-plus"></i>
-                        </div>
-                      </div>
-                  </div>
-                </td>
-                <td>
-                <div style={{
-                    background: `url(${Photo1}) center/cover no-repeat`,
-                    backgroundColor: 'black',
-                    height: '100%', width: '500px'
-                  }} className='img-fluid'>
-                      <div className='text-cover'>
-                        <div className='text-content'>
-                        <i class="fas fa-caret-left"></i>
-                        <i class="fas fa-search"></i>
-                        <i class="fas fa-caret-right"></i>
-                        <i class="fa-solid fa-magnifying-glass-plus"></i>
-                        </div>
-                      </div>
-                  </div>
-                </td>
-                <td>
-                  <div style={{
-                    background: `url(${Photos5}) center/cover no-repeat`,
-                    backgroundColor: 'black',
-                    height: '100%', width: '500px'
-                  }} className='img-fluid'>
-                      <div className='text-cover'>
-                        <div className='text-content'>
-                        <i class="fas fa-caret-left"></i>
-                        <i class="fas fa-search"></i>
-                        <i class="fas fa-caret-right"></i>
-                        <i class="fa-solid fa-magnifying-glass-plus"></i>
-                        </div>
-                      </div>
-                  </div>
-                </td>
-                <td>
-                  <div style={{
-                    background: `url(${Photos6}) center/cover no-repeat`,
-                    backgroundColor: 'black',
-                    height: '100%', width: '500px'
-                  }} className='img-fluid'>
-                      <div className='text-cover'>
-                        <div className='text-content'>
-                        <i class="fas fa-caret-left"></i>
-                        <i class="fas fa-search"></i>
-                        <i class="fas fa-caret-right"></i>
-                        <i class="fa-solid fa-magnifying-glass-plus"></i>
-                        </div>
-                      </div>
-              </div>             
-              </td>
-              </tr>
-            </table>
-          </div>
-        </div>
+        <Gallery/>
         <div className="container-lg  smooth">
                       <div className="join-head">
                           <h1>Join Us</h1>
