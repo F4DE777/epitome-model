@@ -13,6 +13,10 @@
     src: url(./assets/fonts/FontsFree-Net-Noteworthy-Bold.ttf);
 }
 
+.nnn{
+    background-color: #F2F5FF;
+}
+
 .fade-appear,
 .fade-enter {
 opacity: 0;

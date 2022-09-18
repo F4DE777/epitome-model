@@ -13,7 +13,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group'
 
 function App() {
   return (
-    <>
+    <div className='nnn'>
     <Router>
           <NavBar />
           <Route render={({location}) => (  
@@ -43,7 +43,7 @@ function App() {
           <Footer/>
       </Router>
     
-    </>
+    </div>
   );
 }
 
